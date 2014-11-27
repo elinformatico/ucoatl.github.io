@@ -30,6 +30,7 @@ a img {
 
 .cool {
 	font-size: 0.6em;
+	font-family: sans-serif;
 	line-height: 1.3em;
 	vertical-align: top;
 }
@@ -87,8 +88,8 @@ a img {
 	font-size: 2.250em;
 	font-weight: 300;
 	color: #0f1025;
-	text-transform: uppercase;
 	display: block;
+	font-style: oblique;
 	text-align: center;
 	letter-spacing: 0.1em;
 }
@@ -205,9 +206,9 @@ input.error, textarea.error {
 	color: #ffffff;
 }
 
-#intro .line { background-color: #80d5fe; }
+#intro .line { background-color: #ff0048; }
 #intro .bullet { color: #5b9bbc; }
-#intro a { color: #00b4ff; }
+#intro a { color: #ACF030; }
 
 .top-decorations {
 	position: fixed;
@@ -230,7 +231,7 @@ input.error, textarea.error {
 }
 
 #nav-sticky-wrapper.is-sticky #nav {
-	background-color: #eeeeee;
+	background-color: #121212;
 }
 
 #nav ul {
@@ -253,11 +254,11 @@ input.error, textarea.error {
 	display: block;
 	font-size: 0.938em;
 	letter-spacing: 0.1em;
-	color: #2f2f2f;
+	color: #ffffff;
 	text-decoration: none;
 }
 
-#nav ul li a:hover, #nav ul li.current a { color: #00b4ff; }
+#nav ul li a:hover, #nav ul li.current a { color: #ff0048; }
 
 /* 2.2 Info box */
 
@@ -277,8 +278,6 @@ input.error, textarea.error {
 	margin: 0;
 	padding: 0;
 	font-size: 3.750em;
-	font-weight: 900;
-	letter-spacing: 0.1em;
 	line-height: 1em;
 	text-transform: uppercase;
 }
@@ -294,7 +293,7 @@ input.error, textarea.error {
 
 /* 3. Profile */
 
-#profile .line { background-color: #4081a3; }
+#profile .line { background-color: #86CE00; }
 #profile .bullet { color: #4081a3; }
 #profile a { color: #4081a3; }
 
